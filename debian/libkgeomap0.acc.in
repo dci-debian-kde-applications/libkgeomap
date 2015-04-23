@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptor>
+
+<version>
+    15.04.0
+</version>
+
+<headers>
+    /usr/include/libkgeomap
+</headers>
+
+<libs>
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libkgeomap.so
+</libs>
+
+<gcc_options>
+    -fPIC
+</gcc_options>
+
+</descriptor>

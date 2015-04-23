@@ -1,0 +1,5 @@
+libkgeomap (15.04.0-1~) UNRELEASED; urgency=medium
+
+  * Initial release (15.04.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 16:28:26 +0200
