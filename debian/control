@@ -5,6 +5,9 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
+               kdelibs5-dev,
+               libmarble-dev,
+               libqt4-dev (>= 4.6.0~),
                pkg-kde-tools (>= 0.15.16)
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
@@ -35,8 +38,7 @@ Description: World-Map Library interface for KDE - data files
 Package: libkgeomap-dev
 Section: libdevel
 Architecture: any
-Depends: libkgeomap0 (= ${binary:Version}),
-         ${misc:Depends}
+Depends: libkgeomap0 (= ${binary:Version}), ${misc:Depends}
 Description: World-Map Library interface for KDE - development files
  Libkgeomap is a wrapper around different world-map components, to browse and
  arrange photos over a map.
