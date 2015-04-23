@@ -15,9 +15,9 @@ Homepage: https://projects.kde.org/projects/kde/kdegraphics/libs/libkgeomap
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/libkgeomap.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/libkgeomap.git
 
-Package: libkgeomap0
+Package: libkgeomap2
 Architecture: any
-Depends: libkgeomap-data (>= ${source:Version}),
+Depends: libkgeomap-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: World-Map Library interface for KDE - shared library
@@ -38,7 +38,7 @@ Description: World-Map Library interface for KDE - data files
 Package: libkgeomap-dev
 Section: libdevel
 Architecture: any
-Depends: libkgeomap0 (= ${binary:Version}), ${misc:Depends}
+Depends: libkgeomap2 (= ${binary:Version}), ${misc:Depends}
 Description: World-Map Library interface for KDE - development files
  Libkgeomap is a wrapper around different world-map components, to browse and
  arrange photos over a map.
@@ -49,7 +49,7 @@ Package: libkgeomap-dbg
 Section: debug
 Priority: extra
 Architecture: any
-Depends: libkgeomap0 (= ${binary:Version}), ${misc:Depends}
+Depends: libkgeomap2 (= ${binary:Version}), ${misc:Depends}
 Description: World-Map Library interface for KDE - debugging symbols
  Libkgeomap is a wrapper around different world-map components, to browse and
  arrange photos over a map.
