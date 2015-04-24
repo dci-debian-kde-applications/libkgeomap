@@ -6,7 +6,6 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
                kdelibs5-dev,
-               libkexiv2-dev,
                libmarble-dev (>= 4:14),
                libqt4-dev (>= 4.6.0~),
                pkg-config,
