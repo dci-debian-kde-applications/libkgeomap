@@ -3,7 +3,7 @@ Section: libs
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake, debhelper (>= 9), pkg-kde-tools (>= 0.15.16)
+Build-Depends: cmake, debhelper (>= 9), pkg-kde-tools (>= 0.15.16), kdelibs5-dev
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/kdegraphics/libs/libkgeomap
