@@ -1,3 +1,4 @@
 usr/include/libkgeomap/
-usr/lib/*/libkgeomap.so
-usr/lib/cmake/KGeoMap/
+usr/lib/libkgeomap.so
+usr/lib/pkgconfig/libkgeomap.pc
+usr/share/kde4/apps/cmake/modules/FindKGeoMap.cmake

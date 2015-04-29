@@ -1,0 +1,20 @@
+Index: libkgeomap-15.04.0/tests/CMakeLists.txt
+===================================================================
+--- libkgeomap-15.04.0.orig/tests/CMakeLists.txt
++++ libkgeomap-15.04.0/tests/CMakeLists.txt
+@@ -51,7 +51,6 @@ if(KDE4_BUILD_TESTS)
+            )
+         KDE4_ADD_EXECUTABLE(kgeomap_test_itemmarkertiler ${test_itemmarkertiler_sources})
+         target_link_libraries(kgeomap_test_itemmarkertiler kgeomap ${QT_QTCORE_LIBRARY} ${QT_QTTEST_LIBRARY} ${KDE4_KDEUI_LIBS})
+-        add_test(kgeomap_test_itemmarkertiler ${EXECUTABLE_OUTPUT_PATH}/kgeomap_test_itemmarkertiler)
+     endif()
+ 
+     # test the track management classes
+@@ -60,7 +59,6 @@ if(KDE4_BUILD_TESTS)
+        )
+     KDE4_ADD_EXECUTABLE(kgeomap_test_tracks ${test_tracks_sources})
+     target_link_libraries(kgeomap_test_tracks kgeomap ${QT_QTCORE_LIBRARY} ${QT_QTTEST_LIBRARY} ${KDE4_KDECORE_LIBS})
+-    add_test(kgeomap_test_tracks ${EXECUTABLE_OUTPUT_PATH}/kgeomap_test_tracks)
+ 
+     # track loading application for timing tests
+     set(loadtrack_sources
