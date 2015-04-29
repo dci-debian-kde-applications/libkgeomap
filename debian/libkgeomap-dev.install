@@ -1,3 +1,3 @@
 usr/include/libkgeomap/
-usr/lib/cmake/KGeoMap/
 usr/lib/*/libkgeomap.so
+usr/lib/cmake/KGeoMap/
