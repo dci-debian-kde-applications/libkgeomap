@@ -1,10 +1,11 @@
-libkgeomap (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
+libkgeomap (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * Add dependencies.
   * Prepare kubuntu_vivid_backports branch.
   * Fix comma in control 
+  * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 28 Apr 2015 17:03:16 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 14 May 2015 06:36:23 -0700
 
 libkgeomap (15.04.0-1~) UNRELEASED; urgency=medium
 
