@@ -29,7 +29,7 @@ Description: World-Map Library interface for KDE - shared library
 
 Package: libkgeomap-data
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, libjs-openlayers
 Description: World-Map Library interface for KDE - data files
  Libkgeomap is a wrapper around different world-map components, to browse and
  arrange photos over a map.

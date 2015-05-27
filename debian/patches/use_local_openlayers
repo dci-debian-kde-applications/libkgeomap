@@ -1,0 +1,12 @@
+Index: libkgeomap/data/backend-osm.html
+===================================================================
+--- libkgeomap.orig/data/backend-osm.html	2015-05-27 17:42:54.108132161 +0200
++++ libkgeomap/data/backend-osm.html	2015-05-27 17:52:20.841047631 +0200
+@@ -1,6 +1,6 @@
+ <html>
+ <head>
+-<script type="text/javascript" src="http://www.openlayers.org/api/OpenLayers.js"></script>
++<script type="text/javascript" src="OpenLayers.js"></script>
+ <script type="text/javascript" src="http://www.openstreetmap.org/openlayers/OpenStreetMap.js"></script>
+ <script type="text/javascript" src="backend-osm-js.js"></script>
+ </head>
