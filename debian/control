@@ -6,7 +6,7 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
                kdelibs5-dev,
-               libmarble-dev (>= 4:15.04.1),
+               libmarble-dev (>= 4:15.04.2),
                pkg-kde-tools (>= 0.15.16)
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
