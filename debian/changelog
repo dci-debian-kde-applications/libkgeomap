@@ -1,7 +1,8 @@
-libkgeomap (15.04.0-1~) UNRELEASED; urgency=medium
+libkgeomap (15.08.0-1~) UNRELEASED; urgency=medium
 
   * Initial release (15.04.0).
   * New patch: test_data_dir.patch
   * New patch: use_local_openlayers
+  * New upstream release (15.08.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 16:28:26 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 10 Sep 2015 14:30:09 +0200
