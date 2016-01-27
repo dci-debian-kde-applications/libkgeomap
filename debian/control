@@ -22,7 +22,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/libkgeomap.git
 
 Package: libkf5kgeomap10.0.0
 Architecture: any
-Depends: libkf5geomap-data (= ${source:Version}),
+Depends: libkf5kgeomap-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: World-Map Library interface for KDE - shared library
