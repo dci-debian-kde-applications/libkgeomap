@@ -1,4 +1,4 @@
-Source: libkgeomap
+Source: libkf5kgeomap
 Section: libs
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
@@ -6,13 +6,11 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 1.1.0~),
-               kdelibs5-dev,
                kio-dev (>= 5.0.0~),
                libkf5config-dev (>= 5.0.0~),
                libkf5i18n-dev (>= 5.0.0~),
                libkf5textwidgets-dev (>= 5.0.0~),
-               libmarble-dev (>= 4:14),
-               libqt4-dev (>= 4.6.0~),
+               libmarble-dev (>= 4:15),
                libqt5webkit5-dev (>= 5.2.0~),
                pkg-config,
                pkg-kde-tools (>= 0.15.16),
@@ -22,9 +20,9 @@ Homepage: https://projects.kde.org/projects/kde/kdegraphics/libs/libkgeomap
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/libkgeomap.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/libkgeomap.git
 
-Package: libkgeomap2
+Package: libkf5kgeomap10.0.0
 Architecture: any
-Depends: libkgeomap-data (= ${source:Version}),
+Depends: libkf5geomap-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: World-Map Library interface for KDE - shared library
@@ -33,7 +31,7 @@ Description: World-Map Library interface for KDE - shared library
  .
  This package contains the shared library.
 
-Package: libkgeomap-data
+Package: libkf5kgeomap-data
 Architecture: all
 Depends: libjs-openlayers, ${misc:Depends}
 Description: World-Map Library interface for KDE - data files
@@ -42,24 +40,12 @@ Description: World-Map Library interface for KDE - data files
  .
  This package contains the data files.
 
-Package: libkgeomap-dev
+Package: libkf5kgeomap-dev
 Section: libdevel
 Architecture: any
-Depends: kdelibs5-dev, libkgeomap2 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5kgeomap10.0.0 (= ${binary:Version}), ${misc:Depends}
 Description: World-Map Library interface for KDE - development files
  Libkgeomap is a wrapper around different world-map components, to browse and
  arrange photos over a map.
  .
  This package contains the development files.
-
-Package: libkgeomap-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Depends: libkgeomap2 (= ${binary:Version}), ${misc:Depends}
-Description: World-Map Library interface for KDE - debugging symbols
- Libkgeomap is a wrapper around different world-map components, to browse and
- arrange photos over a map.
- .
- This package contains debugging files used to investigate problems with
- binaries included in the library.

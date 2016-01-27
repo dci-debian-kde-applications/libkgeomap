@@ -2,15 +2,16 @@
 <descriptor>
 
 <version>
-    15.04.0
+    15.12.0
 </version>
 
 <headers>
-    /usr/include/libkgeomap
+    /usr/include/KF5/KGeoMap
+    /usr/include/KF5/libkgeomap_version.h
 </headers>
 
 <libs>
-    /usr/lib/libkgeomap.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libKF5KGeoMap.so
 </libs>
 
 <gcc_options>
