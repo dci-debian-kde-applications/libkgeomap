@@ -1,4 +1,4 @@
 usr/include/KF5/KGeoMap/
 usr/include/KF5/libkgeomap_version.h
-usr/lib/*/libKF5KGeoMap.so
 usr/lib/*/cmake/KF5KGeoMap/
+usr/lib/*/libKF5KGeoMap.so

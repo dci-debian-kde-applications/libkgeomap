@@ -43,7 +43,9 @@ Description: World-Map Library interface for KDE - data files
 Package: libkf5kgeomap-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5kgeomap10.0.0 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5kgeomap10.0.0 (= ${binary:Version}),
+         qtbase5-dev (>= 5.2.0~),
+         ${misc:Depends}
 Description: World-Map Library interface for KDE - development files
  Libkgeomap is a wrapper around different world-map components, to browse and
  arrange photos over a map.
