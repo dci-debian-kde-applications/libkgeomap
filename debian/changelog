@@ -1,3 +1,11 @@
+libkf5kgeomap (15.12.0-2~1.gbpc7efec) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @c7efec2e57c34c0b77f170d25711aa37b26f41ed **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:48:41 +0200
+
 libkf5kgeomap (15.12.0-1) experimental; urgency=medium
 
   * Initial release (15.04.0).
