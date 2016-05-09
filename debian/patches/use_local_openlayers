@@ -1,7 +1,16 @@
-Index: libkgeomap/data/backend-osm.html
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Thu, 21 Apr 2016 05:48:11 +0200
+Subject: use_local_openlayers
+
 ===================================================================
---- libkgeomap.orig/data/backend-osm.html	2015-05-27 17:42:54.108132161 +0200
-+++ libkgeomap/data/backend-osm.html	2015-05-27 17:52:20.841047631 +0200
+---
+ data/backend-osm.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/data/backend-osm.html b/data/backend-osm.html
+index cdbe586..a9fd1dd 100644
+--- a/data/backend-osm.html
++++ b/data/backend-osm.html
 @@ -1,6 +1,6 @@
  <html>
  <head>
