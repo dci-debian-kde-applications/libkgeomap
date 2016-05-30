@@ -1,10 +1,6 @@
-libkf5kgeomap (16.04.0-1~2.gbp9ba341) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @9ba3414b4654a3c325bdc387cb94053579afe8dd **
+libkf5kgeomap (16.04.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @4ff9398d46bec73d18022f83be4642fbeb24731a **
-
   * Bump Standards-Version to 3.9.8
   * Refresh patches
 
@@ -12,7 +8,7 @@ libkf5kgeomap (16.04.0-1~2.gbp9ba341) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 12:48:15 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 30 May 2016 10:41:47 +0200
 
 libkf5kgeomap (15.12.0-1) experimental; urgency=medium
 
