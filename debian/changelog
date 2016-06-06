@@ -1,3 +1,9 @@
+libkf5kgeomap (16.04.0-2) unstable; urgency=medium
+
+  * Bump marble build dependency.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 06 Jun 2016 21:06:44 +0200
+
 libkf5kgeomap (16.04.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
