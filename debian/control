@@ -6,31 +6,20 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 1.1.0~),
-               libkf5kio-dev (>= 5.0.0~),
                libkf5config-dev (>= 5.0.0~),
                libkf5i18n-dev (>= 5.0.0~),
                libkf5kexiv2-dev,
+               libkf5kio-dev (>= 5.0.0~),
                libkf5textwidgets-dev (>= 5.0.0~),
                libmarble-dev (>= 4:16),
                libqt5webkit5-dev (>= 5.2.0~),
                pkg-config,
                pkg-kde-tools (>= 0.15.16),
-               qtbase5-dev (>= 5.2.0~)
+               qtbase5-dev (>= 5.2.0~),
 Standards-Version: 4.1.0
 Homepage: https://projects.kde.org/projects/kde/kdegraphics/libs/libkgeomap
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/libkgeomap.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/libkgeomap.git
-
-Package: libkf5kgeomap10.0.0
-Architecture: any
-Depends: libkf5kgeomap-data (= ${source:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: World-Map Library interface for KDE - shared library
- Libkgeomap is a wrapper around different world-map components, to browse and
- arrange photos over a map.
- .
- This package contains the shared library.
 
 Package: libkf5kgeomap-data
 Architecture: all
@@ -50,9 +39,20 @@ Depends: libkf5config-dev,
          libmarble-dev,
          libqt5webkit5-dev,
          qtbase5-dev (>= 5.2.0~),
-         ${misc:Depends}
+         ${misc:Depends},
 Description: World-Map Library interface for KDE - development files
  Libkgeomap is a wrapper around different world-map components, to browse and
  arrange photos over a map.
  .
  This package contains the development files.
+
+Package: libkf5kgeomap10.0.0
+Architecture: any
+Depends: libkf5kgeomap-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: World-Map Library interface for KDE - shared library
+ Libkgeomap is a wrapper around different world-map components, to browse and
+ arrange photos over a map.
+ .
+ This package contains the shared library.
