@@ -24,6 +24,8 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/libkgeomap.git
 Package: libkf5kgeomap-data
 Architecture: all
 Depends: libjs-openlayers, ${misc:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: World-Map Library interface for KDE - data files
  Libkgeomap is a wrapper around different world-map components, to browse and
  arrange photos over a map.
