@@ -33,11 +33,11 @@ Description: World-Map Library interface for KDE - data files
 Package: libkf5kgeomap-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5config-dev,
-         libkf5i18n-dev,
+Depends: libkf5config-dev (>= 5.0.0~),
+         libkf5i18n-dev (>= 5.0.0~),
          libkf5kgeomap10.0.0 (= ${binary:Version}),
          libmarble-dev,
-         libqt5webkit5-dev,
+         libqt5webkit5-dev (>= 5.2.0~),
          qtbase5-dev (>= 5.2.0~),
          ${misc:Depends},
 Description: World-Map Library interface for KDE - development files
