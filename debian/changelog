@@ -1,11 +1,14 @@
-libkf5kgeomap (17.08.1-1~) UNRELEASED; urgency=medium
+libkf5kgeomap (17.08.1-1) experimental; urgency=medium
 
   * New upstream release (17.08.1)
   * Bump Standards-Version to 4.1.0.
   * Update upstream metadata
   * Update build-deps and deps with the info from cmake
+  * Add breaks/replaces against the kde-l10n packages
+  * Bump kde-l10n breaks/replaces versions
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 11 Sep 2017 20:42:01 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 18 Sep 2017 15:06:37 +0200
 
 libkf5kgeomap (17.08.1-0neon) xenial; urgency=medium
 
