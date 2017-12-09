@@ -6,6 +6,8 @@ libkf5kgeomap (17.08.3-0r1) UNRELEASED; urgency=medium
   * Simplify watch file, and switch it to https.
   * Fix symlink to locally installed OpenLayers.js. (Closes: #857405)
   * Remove the unused libkf5textwidgets-dev build dependency.
+  * Bump the libmarble-dev build & runtime dependencies to >= 4:17.08~,
+    to make sure to build with the last version of it.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 09 Dec 2017 07:20:38 +0100
 
