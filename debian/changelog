@@ -8,6 +8,8 @@ libkf5kgeomap (17.08.3-0r1) UNRELEASED; urgency=medium
   * Remove the unused libkf5textwidgets-dev build dependency.
   * Bump the libmarble-dev build & runtime dependencies to >= 4:17.08~,
     to make sure to build with the last version of it.
+  * Adjust l10npkgs_firstversion_ok to the version where kde-l10n will
+    drop translations.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 09 Dec 2017 07:20:38 +0100
 
