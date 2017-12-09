@@ -16,7 +16,7 @@ Build-Depends: cmake (>= 2.8.12~),
                pkg-config,
                pkg-kde-tools (>= 0.15.16),
                qtbase5-dev (>= 5.2.0~),
-Standards-Version: 4.1.0
+Standards-Version: 4.1.2
 Homepage: https://projects.kde.org/projects/kde/kdegraphics/libs/libkgeomap
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/libkgeomap.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/libkgeomap.git
